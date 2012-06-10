@@ -1,14 +1,14 @@
-Course Name:
-Unique:
-First Name:
-Last Name:
-EID:
-CS Username:
-GitHub ID:
-GitHub Repository Name:
-Estimated number of hours:
-Actual    number of hours:
-Comments:
+Course Name: CS w373
+Unique: 84270
+First Name: Wonjun
+Last Name: Lee
+EID: WL4337
+CS Username: wlee
+GitHub ID: SnowSpider
+GitHub Repository Name: cs373-collatz
+Estimated number of hours: 6
+Actual    number of hours: 10
+Comments: 
 
 I attest that I have written every line of code that I have submitted
 and I take full responsibility for the origin of all the code submitted.

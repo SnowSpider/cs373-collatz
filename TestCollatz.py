@@ -59,6 +59,12 @@ class TestCollatz (unittest.TestCase) :
         v = collatz_eval(900, 1000)
         self.assert_(v == 174)
 
+    # -------
+    # my eval
+    # -------
+    
+    
+
     # -----
     # print
     # -----

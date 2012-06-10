@@ -65,6 +65,36 @@ public final class TestCollatz extends TestCase {
         final int v = Collatz.eval(900, 1000);
     	Assert.assertTrue(v == 174);}
 
+    // -------
+    // my eval
+    // -------
+    public void testEval_5 () {
+        final int v = Collatz.eval(4, 10);
+        Assert.assertTrue(v == 20);}
+
+    public void testEval_6 () {
+        final int v = Collatz.eval(76, 200);
+        Assert.assertTrue(v == 125);}
+
+    public void testEval_7 () {
+        final int v = Collatz.eval(75, 200);
+        Assert.assertTrue(v == 125);}
+        
+    // -----
+    // getCycLen
+    // -----
+    public void testGetCycLen_1 () {
+        final int v = Collatz.getCycLen(10);
+        Assert.assertTrue(v == 7);}
+        
+    public void testGetCycLen_2 () {
+        final int v = Collatz.getCycLen(20);
+        Assert.assertTrue(v == 8);}
+    
+    public void testGetCycLen_3 () {
+        final int v = Collatz.getCycLen(30);
+        Assert.assertTrue(v == 19);}    
+
     // -----
     // print
     // -----

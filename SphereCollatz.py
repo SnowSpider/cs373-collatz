@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-
-# ---------------------------
-# projects/collatz/Collatz.py
-# Copyright (C) 2011
-# Glenn P. Downing
-# ---------------------------
+import sys
 
 SIZE = 1000000 #the size of the cache.
 cache_eval = [0] * SIZE #this array stores the maximum cycle lengths up to each index.
@@ -148,3 +142,5 @@ def collatz_solve (r, w) :
     while collatz_read(r, a) :
         v = collatz_eval(a[0], a[1])
         collatz_print(w, a[0], a[1], v)
+
+collatz_solve(sys.stdin, sys.stdout)
