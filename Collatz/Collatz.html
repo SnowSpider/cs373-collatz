@@ -1,0 +1,51 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Collatz</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Collatz</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/v/filer4b/v38q001/wlee/CS373/cs373-collatz/Collatz.py">/v/filer4b/v38q001/wlee/CS373/cs373-collatz/Collatz.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;---------------------------<br>
+#&nbsp;projects/collatz/Collatz.py<br>
+#&nbsp;Copyright&nbsp;(C)&nbsp;2011<br>
+#&nbsp;Glenn&nbsp;P.&nbsp;Downing<br>
+#&nbsp;---------------------------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-collatz_eval"><strong>collatz_eval</strong></a>(i, j)</dt><dd><tt>i&nbsp;is&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+j&nbsp;is&nbsp;the&nbsp;end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+return&nbsp;the&nbsp;max&nbsp;cycle&nbsp;length&nbsp;in&nbsp;the&nbsp;range&nbsp;[i,&nbsp;j]</tt></dd></dl>
+ <dl><dt><a name="-collatz_getCycLen"><strong>collatz_getCycLen</strong></a>(n)</dt><dd><tt>n&nbsp;is&nbsp;the&nbsp;initial&nbsp;value&nbsp;for&nbsp;the&nbsp;algorithm<br>
+return&nbsp;the&nbsp;cycle&nbsp;length&nbsp;of&nbsp;n</tt></dd></dl>
+ <dl><dt><a name="-collatz_print"><strong>collatz_print</strong></a>(w, i, j, v)</dt><dd><tt>prints&nbsp;the&nbsp;values&nbsp;of&nbsp;i,&nbsp;j,&nbsp;and&nbsp;v<br>
+w&nbsp;is&nbsp;a&nbsp;writer<br>
+i&nbsp;is&nbsp;the&nbsp;beginning&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+j&nbsp;is&nbsp;the&nbsp;end&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of&nbsp;the&nbsp;range,&nbsp;inclusive<br>
+v&nbsp;is&nbsp;the&nbsp;max&nbsp;cycle&nbsp;length</tt></dd></dl>
+ <dl><dt><a name="-collatz_read"><strong>collatz_read</strong></a>(r, a)</dt><dd><tt>reads&nbsp;two&nbsp;ints&nbsp;into&nbsp;a[0]&nbsp;and&nbsp;a[1]<br>
+r&nbsp;is&nbsp;a&nbsp;&nbsp;reader<br>
+a&nbsp;is&nbsp;an&nbsp;array&nbsp;on&nbsp;int<br>
+return&nbsp;true&nbsp;if&nbsp;that&nbsp;succeeds,&nbsp;false&nbsp;otherwise</tt></dd></dl>
+ <dl><dt><a name="-collatz_solve"><strong>collatz_solve</strong></a>(r, w)</dt><dd><tt>read,&nbsp;eval,&nbsp;print&nbsp;loop<br>
+r&nbsp;is&nbsp;a&nbsp;reader<br>
+w&nbsp;is&nbsp;a&nbsp;writer</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>SIZE</strong> = 1000000<br>
+<strong>cache_cycLen</strong> = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...]<br>
+<strong>cache_eval</strong> = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...]</td></tr></table>
+</body></html>

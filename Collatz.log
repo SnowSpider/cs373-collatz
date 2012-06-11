@@ -1,0 +1,35 @@
+commit 56cb27f10326987af824ed9e3587ff545827f9d2
+Author: wlee <tree03@paran.com>
+Date:   Mon Jun 11 14:20:59 2012 -0500
+
+    optimization as in Quiz #3
+
+commit 5ae6e06c121b86b0238c5301e811d9e0b49e2df0
+Author: wlee <tree03@paran.com>
+Date:   Mon Jun 11 14:14:33 2012 -0500
+
+    random acceptance test implemented
+
+commit 286d856e8e7c7e794cfd0080fc76fa1e6ba2ad02
+Author: wlee <tree03@paran.com>
+Date:   Mon Jun 11 13:47:01 2012 -0500
+
+    added unit tests
+
+commit e071b5a79edae386a69e3d05e39c424cfe77948a
+Author: wlee <tree03@paran.com>
+Date:   Sun Jun 10 15:45:22 2012 -0500
+
+    Collatz.java implemented
+
+commit b4fd807e11c26143242e373ebfd0266022a6d78d
+Author: wlee <tree03@paran.com>
+Date:   Sun Jun 10 15:32:14 2012 -0500
+
+    skeleton code
+
+commit d87b8e4413348adc6bc379648d51f9a14802ed9c
+Author: SnowSpider <tree03@paran.com>
+Date:   Sun Jun 10 11:40:20 2012 -0700
+
+    Initial commit
