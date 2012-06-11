@@ -21,6 +21,7 @@ To document the program
 # -------
 
 import sys
+import random
 
 from Collatz import collatz_solve
 
@@ -28,4 +29,11 @@ from Collatz import collatz_solve
 # main
 # ----
 
+def genRandPairs (n) :
+    input_file = open("RunCollatz.in", "w")
+    for i in range(0, 1000):
+        input_file.write(str(random.randrange(1, 1000000))+" "+str(random.randrange(1, 1000000))+"\n")
+    input_file.close()
+
+genRandPairs(1000)
 collatz_solve(sys.stdin, sys.stdout)
