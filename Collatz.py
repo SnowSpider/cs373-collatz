@@ -58,7 +58,7 @@ def collatz_eval (i, j) :
     
     di = i<<1; #di stands for deux i
     if di < j:
-        for k in range(j, di, -1): 
+        for k in range(j, di, -1): #optimization mentioned in Quiz #3
             if cache_eval[k] > 0:
                 temp = k
                 break
