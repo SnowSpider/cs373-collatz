@@ -1,0 +1,24 @@
+-- Feedback for Project 1--
+
+	 student : Wonjun Lee
+
+Total: 70/70 - 0% = 70/70
+
+==== Scoring Breakdown ===========
+
+Git Repository : 5/5
+
+Issue Tracker : 5/5
+
+Unit Tests : 15/15
+
+Acceptance Tests : 15/15
+
+Implementation : 15/15
+
+Sphere : 5/5
+
+Documentation : 5/5
+
+==== Comment =====================
+1. Nice job on this project, code is clear and good.
